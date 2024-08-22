@@ -572,7 +572,7 @@
                 "sha256:eed76194ee7d9c081037a3df7868d4de90e0410b51fc1ca933a8379e464bf40c"
             ],
             "index": "pypi",
-            "markers": "python_full_version >= '3.8.1' and python_version < '4.0'",
+            "markers": "python_version < '4.0' and python_full_version >= '3.8.1'",
             "version": "==0.2.14"
         },
         "langchain-community": {
@@ -581,7 +581,7 @@
                 "sha256:d671cfc6a4f3b65f49a2e59ab420d0164f109d0a56fc4b4996518205c63b8c7e"
             ],
             "index": "pypi",
-            "markers": "python_full_version >= '3.8.1' and python_version < '4.0'",
+            "markers": "python_version < '4.0' and python_full_version >= '3.8.1'",
             "version": "==0.2.12"
         },
         "langchain-core": {
@@ -589,7 +589,7 @@
                 "sha256:50048d90b175c0d5a7e28164628b3c7f8c82b0dc2cd766a663d346a18d5c9eb2",
                 "sha256:c4fd158273e28cef758b4eccc956b424b76d4bb9117ce6014ae6eb2fb985801d"
             ],
-            "markers": "python_full_version >= '3.8.1' and python_version < '4.0'",
+            "markers": "python_version < '4.0' and python_full_version >= '3.8.1'",
             "version": "==0.2.34"
         },
         "langchain-ollama": {
@@ -598,7 +598,7 @@
                 "sha256:91b3b6cfcc90890c683995520d84210ebd2cee8c0f2cd0a5ffde9f1ffbee2f94"
             ],
             "index": "pypi",
-            "markers": "python_full_version >= '3.8.1' and python_version < '4.0'",
+            "markers": "python_version < '4.0' and python_full_version >= '3.8.1'",
             "version": "==0.1.1"
         },
         "langchain-openai": {
@@ -607,7 +607,7 @@
                 "sha256:e184ab867a30f803dc210a388537186b1b670a33d910a7e0fa4e0329d3b6c654"
             ],
             "index": "pypi",
-            "markers": "python_full_version >= '3.8.1' and python_version < '4.0'",
+            "markers": "python_version < '4.0' and python_full_version >= '3.8.1'",
             "version": "==0.1.22"
         },
         "langchain-text-splitters": {
@@ -615,7 +615,7 @@
                 "sha256:1c80d4b11b55e2995f02d2a326c0323ee1eeff24507329bb22924e420c782dff",
                 "sha256:a1e45de10919fa6fb080ef0525deab56557e9552083600455cb9fa4238076140"
             ],
-            "markers": "python_full_version >= '3.8.1' and python_version < '4.0'",
+            "markers": "python_version < '4.0' and python_full_version >= '3.8.1'",
             "version": "==0.2.2"
         },
         "langsmith": {
@@ -623,7 +623,7 @@
                 "sha256:572e2c90709cda1ad837ac86cedda7295f69933f2124c658a92a35fb890477cc",
                 "sha256:caf4d95f314bb6cd3c4e0632eed821fd5cd5d0f18cb824772fce6d7a9113895b"
             ],
-            "markers": "python_full_version >= '3.8.1' and python_version < '4.0'",
+            "markers": "python_version < '4.0' and python_full_version >= '3.8.1'",
             "version": "==0.1.101"
         },
         "markupsafe": {
