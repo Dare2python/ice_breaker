@@ -6,7 +6,8 @@ from langchain.agents import (
     AgentExecutor,
 )
 from langchain_core.tools import Tool
-from langchain_openai import ChatOpenAI
+# from langchain_openai import ChatOpenAI
+from langchain_ollama import ChatOllama
 from langchain.prompts.prompt import PromptTemplate
 from dotenv import load_dotenv
 from tools.tools import get_profile_url_tavily
@@ -15,10 +16,14 @@ load_dotenv()
 
 
 def lookup(name: str) -> str:
-    llm = ChatOpenAI(
+    # llm = ChatOpenAI(
+    #     temperature=0,
+    #     model_name="gpt-3.5-turbo",
+    #     openai_api_key=os.environ["OPENAI_API_KEY"],
+    # )
+    llm = ChatOllama(
         temperature=0,
-        model_name="gpt-3.5-turbo",
-        openai_api_key=os.environ["OPENAI_API_KEY"],
+        model="llama3.1"
     )
     template = """given the full name {name_of_person} I want you to get it me a link to their Linkedin profile page.
                           Your answer should contain only a URL"""
